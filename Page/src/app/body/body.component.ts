@@ -9,32 +9,51 @@ import { DataService } from '../data.service';
 export class BodyComponent implements OnInit {
   columns=[
     {
-      
-     field:"Sr.No."
-    },
-    {
-    
-     field:"Name"
-    },
-    {
-     
-     field:"ProjectAllocation"
-    },
-    {
 
-     field:"Skills"
+     headerName:"Sr.No.",
+     field:"SrNo",
+     pinned:'left',
+     width:150
     },
     {
-      
-     field:"Comments"
+      headerName:"Name",
+     field:"Name",
+     pinned:'left',
+     width:150
+    },
+    {
+      headerName:"Project Allocation",
+     field:"ProjectAllocation",
+     pinned:'left',
+     width:150
+    },
+    {
+      headerName:"Skills",
+     field:"Skills",
+     pinned:'left',
+     width:150
+    },
+    {
+      headerName:"Comments",
+     field:"Comments",
+     pinned:'left',
+     width:150,
+     editable:true
     }
    ]
-  row:any=[];
+  frontendDevelopersRow:any=[];
+  backendDevelopersRow:any=[];
 
   constructor(private details:DataService) {
-    this.row=this.details.getFrontendDevelopers();
+    this.frontendDevelopersRow=this.details.getFrontendDevelopers();
+    this.backendDevelopersRow=this.details.getBackendDevelopers();
    }
-
+//    gridOptionsTop :any= {
+   
+//     // don't show the horizontal scrollbar on the top grid
+//     suppressHorizontalScroll: false,
+//     enableSorting: true,
+// };
   ngOnInit(): void {
      
    

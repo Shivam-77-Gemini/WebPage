@@ -9,35 +9,142 @@ export class DataService {
   getFrontendDevelopers(){
     return [
       {
-        "Sr.No.":1,
+        "SrNo":1,
         "Name":"Shivam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
-        "Sr.No.":2,
+        "SrNo":2,
         "Name":"Shivam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
-        "Sr.No.":3,
+        "SrNo":3,
         "Name":"Shivam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
-        "Sr.No.":4,
+        "SrNo":4,
         "Name":"Shivam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
-        "Sr.No.":5,
+        "SrNo":5,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },{
+        "SrNo":6,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":7,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":8,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":9,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":10,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      }
+    ]
+  }
+  getBackendDevelopers(){
+    return [
+      {
+        "SrNo":1,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":2,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":3,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":4,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":5,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },{
+        "SrNo":6,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":7,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":8,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":9,
+        "Name":"Shivam",
+        "ProjectAllocation":"No",
+        "Skills":"Java,Python",
+        "Comments":"Details"
+      },
+      {
+        "SrNo":10,
         "Name":"Shivam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",

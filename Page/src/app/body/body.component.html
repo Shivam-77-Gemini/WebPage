@@ -1,22 +1,43 @@
-<div class="container-fluid">
+<div class="container">
     <div class="">
         
-        <div class="row border border-dark mt-3">
+        <div class="row border border-success border-4 mt-3">
           
              <h3 class="text-center mb-3 text-warning"> 
                 Frontend Developer
+                
              </h3>
-             <ag-grid-angular  style="height: 400px;" class="ag-theme-balham" [columnDefs]="columns" [rowData]="row" [animateRows]="true"></ag-grid-angular>
+             <hr >
+             <!-- <div style="margin-left: 140px;"> -->
+             <ag-grid-angular  
+             style="width: 800px; height: 205px;"
+             class="ag-theme-balham mb-3" 
+             [columnDefs]="columns" 
+             [rowData]="frontendDevelopersRow" 
+             [animateRows]="true"
+             [pagination]="true"></ag-grid-angular>
+             <!-- </div> -->
 
         </div>
         
-        <div class="row border border-danger mt-3">
-            <h3 class="text-center mb-3 text-primary">
+        <div class="row border border-success border-4 mt-3">
+            <h3 class="text-center mb-3 text-warning">
                 Backend Developer
             </h3>
+            
+                <ag-grid-angular  
+                style="width: 800px; height: 205px;"
+                class="ag-theme-balham mb-3" 
+                [columnDefs]="columns" 
+                [rowData]="backendDevelopersRow" 
+                [animateRows]="true"
+                [pagination]="true">
+            </ag-grid-angular>
+                
+            
         </div>
-        <div class="row border border-success mt-3">
-            <h3 class="text-center mb-3 text-danger">
+        <div class="row border border-success border-4 mt-3">
+            <h3 class="text-center mb-3 text-warning">
                 Project Allocation
             </h3>
         </div>

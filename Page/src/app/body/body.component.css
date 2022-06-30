@@ -1,4 +1,4 @@
-@import "~ag-grid-community/dist/styles/ag-grid.css";
-@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
-@import "~ag-grid-community/dist/styles/ag-grid.css";
-@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+hr{
+    border: 5px solid rgb(4, 107, 13);
+    border-radius: 2px;
+}
