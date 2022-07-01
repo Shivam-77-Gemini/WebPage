@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="">
+    
         
         <div class="row border border-success border-4 mt-3">
           
@@ -10,10 +10,11 @@
              <hr >
              <!-- <div style="margin-left: 140px;"> -->
              <ag-grid-angular  
-             style="width: 800px; height: 205px;"
+             style="height: 205px; width: 100%;"
              class="ag-theme-balham mb-3" 
              [columnDefs]="columns" 
              [rowData]="frontendDevelopersRow" 
+             (gridReady)="onGridReady($event)"
              [animateRows]="true"
              [pagination]="true"></ag-grid-angular>
              <!-- </div> -->
@@ -24,22 +25,23 @@
             <h3 class="text-center mb-3 text-warning">
                 Backend Developer
             </h3>
-            
-                <ag-grid-angular  
-                style="width: 800px; height: 205px;"
-                class="ag-theme-balham mb-3" 
-                [columnDefs]="columns" 
-                [rowData]="backendDevelopersRow" 
-                [animateRows]="true"
-                [pagination]="true">
-            </ag-grid-angular>
-                
+            <hr>
+            <ag-grid-angular  
+            style="height: 205px;"
+            class="ag-theme-balham mb-3" 
+            [columnDefs]="columns" 
+            [rowData]="backendDevelopersRow" 
+            (gridReady)="onGridReady($event)"
+            [popupParent]=""
+            [animateRows]="true"
+            [pagination]="true"></ag-grid-angular>
             
         </div>
         <div class="row border border-success border-4 mt-3">
             <h3 class="text-center mb-3 text-warning">
                 Project Allocation
             </h3>
+            <hr>
         </div>
     </div>
-    </div>
+  

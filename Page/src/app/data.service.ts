@@ -10,69 +10,69 @@ export class DataService {
     return [
       {
         "SrNo":1,
-        "Name":"Shivam",
+        "Name":"Joe",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":2,
-        "Name":"Shivam",
+        "Name":"Bhuvan",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":3,
-        "Name":"Shivam",
+        "Name":"Rachit",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":4,
-        "Name":"Shivam",
+        "Name":"Kailash",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":5,
-        "Name":"Shivam",
+        "Name":"Priyansh",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },{
         "SrNo":6,
-        "Name":"Shivam",
+        "Name":"Node",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":7,
-        "Name":"Shivam",
+        "Name":"Prince",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":8,
-        "Name":"Shivam",
+        "Name":"Phantom",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":9,
-        "Name":"Shivam",
+        "Name":"Mohan",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":10,
-        "Name":"Shivam",
+        "Name":"Phonix",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
@@ -90,62 +90,62 @@ export class DataService {
       },
       {
         "SrNo":2,
-        "Name":"Shivam",
+        "Name":"Anupam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":3,
-        "Name":"Shivam",
+        "Name":"Satyam",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":4,
-        "Name":"Shivam",
+        "Name":"Andrew",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":5,
-        "Name":"Shivam",
+        "Name":"Ben",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },{
         "SrNo":6,
-        "Name":"Shivam",
+        "Name":"Mackinsy",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":7,
-        "Name":"Shivam",
+        "Name":"Ramesh",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":8,
-        "Name":"Shivam",
+        "Name":"Rahul",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":9,
-        "Name":"Shivam",
+        "Name":"Raina",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
       {
         "SrNo":10,
-        "Name":"Shivam",
+        "Name":"Mukul",
         "ProjectAllocation":"No",
         "Skills":"Java,Python",
         "Comments":"Details"

@@ -6,18 +6,22 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BodyComponent } from './body/body.component';
 import { AgGridModule } from 'ag-grid-angular';
+import { PopupSkillComponent } from './popup-skill/popup-skill.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    BodyComponent
+    BodyComponent,
+    PopupSkillComponent
+   
   ],
   imports: [
     BrowserModule,
-    AgGridModule.withComponents([BodyComponent]),
+    AgGridModule.withComponents([BodyComponent,PopupSkillComponent]),
     AppRoutingModule,
     
-  ],
+  ],entryComponents:[PopupSkillComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
