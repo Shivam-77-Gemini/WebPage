@@ -82,15 +82,16 @@ export class BodyComponent implements OnInit {
   constructor(private details:DataService,private http:HttpClient) {
     this.frontendDevelopersRow=this.details.getFrontendDevelopers();
     this.backendDevelopersRow=this.details.getBackendDevelopers();
-    
-  //   this.gridApi?.forEachNode((RowNode) => {
-  //     this.row2.push(RowNode.data);
-  //  }
-  //   );
+
+ 
+
+// Updating Project Allocation Grid on the basis of Project Allocation
+
   var i=1;
   var datas;
   var index=0;
   var index2=0;
+  
   for( let value of this.frontendDevelopersRow){
       index++;
     if(value.ProjectAllocation=="Yes" || value.ProjectAllocation=="yes"){
@@ -98,8 +99,8 @@ export class BodyComponent implements OnInit {
       datas.SrNo=i;
       this.row2.push(datas);
       i++;
-      this.frontendDevelopersRow.splice(index, 1);
-      
+     
+      this.frontendDevelopersRow.splice(this.frontendDevelopersRow.findIndex((item: { ProjectAllocation: string; }) => item.ProjectAllocation === 'Yes'),1)
     }
   }
   for( let value of this.backendDevelopersRow){
@@ -109,7 +110,7 @@ export class BodyComponent implements OnInit {
       datas.SrNo=i;
       this.row2.push(datas);
       i++;
-      this.backendDevelopersRow.splice(index2, 1);
+      this.backendDevelopersRow.splice(this.backendDevelopersRow.findIndex((item: { ProjectAllocation: string; }) => item.ProjectAllocation === 'Yes'),1)
       
     }
   }
@@ -125,45 +126,12 @@ export class BodyComponent implements OnInit {
   onGridReady(e:any){
     this.gridOptions.api?.sizeColumnsToFit();
   }
+
+
   onGrid(params:any){
     this.gridApi=params.api;
     this.columnApi=params.columnApi;
   }
   
-  // onRead(e:any){
-  // for( let value of this.frontendDevelopersRow){
-  //   if(value.ProjectAllocation=="Yes" || value.ProjectAllocation=="yes"){
-  //     this.row2.push(value);
-  //   }
-  // }
-  // for( let value of this.backendDevelopersRow){
-  //   if(value.ProjectAllocation=="Yes" || value.ProjectAllocation=="yes"){
-  //     this.row2.push(value);
-  //   }
-  // }
-// }
-
-
-  //  Geting data and updating second grid
- 
-
-
-
-// for(var k=0; k<frontendDevelopersRow.length;k++){
-
-// }
-
-
-
-
-
-
-
-// }
-//  row2:any=[];
-// onGridData(){
-// this.gridApi?.forEachNode((RowNode) => {
-//   this.row2.push(RowNode.)
-// });
-// }
+  
 }
