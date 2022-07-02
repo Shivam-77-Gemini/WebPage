@@ -58,7 +58,7 @@ export class BodyComponent implements OnInit {
     }
    ]
 
-
+// Project Allocation data --->
    
    row2:any=[];
 
@@ -85,7 +85,7 @@ export class BodyComponent implements OnInit {
 
  
 
-// Updating Project Allocation Grid on the basis of Project Allocation
+// Updating Project Allocation Grid on the basis of Project Allocation Column from other grids
 
   var i=1;
   var datas;

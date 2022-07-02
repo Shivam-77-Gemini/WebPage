@@ -16,6 +16,7 @@ this.data=parmas.value;
  }
   ngOnInit(): void {
   }
+  
   onClickBtn(){
     Swal.fire({
       title: 'Skills',
