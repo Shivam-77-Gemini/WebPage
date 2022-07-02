@@ -18,7 +18,7 @@ export class DataService {
       {
         "SrNo":2,
         "Name":"Bhuvan",
-        "ProjectAllocation":"No",
+        "ProjectAllocation":"Yes",
         "Skills":"Java,Python",
         "Comments":"Details"
       },
@@ -91,7 +91,7 @@ export class DataService {
       {
         "SrNo":2,
         "Name":"Anupam",
-        "ProjectAllocation":"No",
+        "ProjectAllocation":"Yes",
         "Skills":"Java,Python",
         "Comments":"Details"
       },

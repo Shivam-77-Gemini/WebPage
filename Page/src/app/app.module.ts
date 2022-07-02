@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BodyComponent } from './body/body.component';
 import { AgGridModule } from 'ag-grid-angular';
 import { PopupSkillComponent } from './popup-skill/popup-skill.component';
+import { HttpClientModule } from  '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PopupSkillComponent } from './popup-skill/popup-skill.component';
     BrowserModule,
     AgGridModule.withComponents([BodyComponent,PopupSkillComponent]),
     AppRoutingModule,
+    HttpClientModule
     
   ],entryComponents:[PopupSkillComponent],
   providers: [],

@@ -15,6 +15,7 @@
              [columnDefs]="columns" 
              [rowData]="frontendDevelopersRow" 
              (gridReady)="onGridReady($event)"
+             
              [animateRows]="true"
              [pagination]="true"></ag-grid-angular>
              <!-- </div> -->
@@ -32,6 +33,7 @@
             [columnDefs]="columns" 
             [rowData]="backendDevelopersRow" 
             (gridReady)="onGridReady($event)"
+            
             [popupParent]=""
             [animateRows]="true"
             [pagination]="true"></ag-grid-angular>
@@ -42,6 +44,18 @@
                 Project Allocation
             </h3>
             <hr>
+            <ag-grid-angular  
+            style="height: 205px;"
+            class="ag-theme-balham mb-3" 
+            [columnDefs]="columns" 
+            [rowData]="row2" 
+            (gridReady)="onGridReady($event)"
+            
+            [popupParent]=""
+            [animateRows]="true"
+            [pagination]="true"></ag-grid-angular>
+            
         </div>
     </div>
+    
   
